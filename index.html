@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-white shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="" class="navbar-brand-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto w-100">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <div class="nav-box">
+                                <h5 class="d-flex justify-content-end">P: +1 234 567 8901</h5>
+                                <p>178 West 27th Street, Suite 527, New York NY 10012</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section-wrapper">
+        <div class="container-fluid --bg">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="content-wrapper">
+                        <h1>Quality Medical Treatment</h1>
+                        <h3>For You And Your Family</h3>
+                        <a href="https://youtu.be/irMpTi187Xk?si=6OB9eZ3ysalRqW77">
+                            <i class="fa fa-play-circle fa-3x" aria-hidden="true"></i>
+                        </a>
+                        <span>Watch our Video</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <form action="" class=" bg-white shadow">
+                        <div class="form-head p-4 text-center">
+                            <h1>Make an appointment</h1>
+                        </div>
+                        <div class="p-5">
+                            <div class="form-detail">
+                                <p>Enter your contacts below to schedule an appointment or discuss it with us in
+                                    details.</p>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" placeholder="Your name *" class="form-control p-4">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" placeholder="Your email address *" class="form-control p-4">
+                            </div>
+                            <div class="mb-4">
+                                <input type="text" placeholder="Phone number *" class="form-control p-4">
+                            </div>
+                            <div class="mb-4">
+                                <button class=" btn btn-primary">Book now</button>
+                            </div>
+                            <div class="form-sugesstion">
+                                <p>Hurry up, we have a limited amount of slots this month.</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-wrapper-1">
+        <div class="container-fluid">
+            <div class="row p-5">
+                <div class="col-12 col-md-12">
+                    <h2>Why Choose Our Clinic</h2>
+                </div>
+                <div class="col-12 col-md-12">
+                    <p>Here are a few reasons why Medical is the area's healthcare provider of choice.</p>
+                </div>
+                <div class="col-12 col-md-4 mt-4">
+                    <img src="./images/l1.png" alt="" class="mb-3">
+                    <h4>Professional Doctors</h4>
+                    <p class="mt-2">Our clinic hires experienced and nationally certified doctors and nurses.</p>
+                </div>
+                <div class="col-12 col-md-4 mt-4">
+                    <img src="./images/l2.png" alt="" class="mb-2">
+                    <h4>Family medicine</h4>
+                    <p>We provide a wide variety of family medicine services including hospital care.</p>
+                </div>
+                <div class="col-12 col-md-4 mt-4">
+                    <img src="./images/l3.png" alt="" class="mb-3">
+                    <h4>24/7 patient support</h4>
+                    <p>Our clinic provides extensive medical support and healthcare services 24/7.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-wrapper-2">
+        <div class="container-fluid p-5">
+            <h3 class="text-center">Our Services</h3>
+            <p class="text-center p">We offer complete healthcare to individuals with various health concerns.</p>
+            <div class="mt-5">
+                <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
+                    <div class="carousel-cell mx-3">
+                        <div class="card" style="width: 17rem;">
+                            <img class="w3-image" src="./images/i.jpg" class="card-img-top" alt="..">
+                            <div class="card-body bg-danger text-white">
+                                <h5 class="card-title">Imaging & Diagnostics</h5>
+                                <p class="card-text text-white">Medical Provide a compherensive array of diagonistic
+                                    /imaging
+                                    services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell mx-3">
+                        <div class="card" style="width: 17rem;">
+                            <img class="w3-image" src="./images/i1.jpg" class="card-img-top" alt="..">
+                            <div class="card-body bg-primary text-white">
+                                <h5 class="card-title">Imaging & Diagnostics</h5>
+                                <p class="card-text text-white">Medical Provide a compherensive array of diagonistic
+                                    /imaging
+                                    services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell mx-3">
+                        <div class="card" style="width: 17rem;">
+                            <img class="w3-image" src="./images/i2.jpg" class="card-img-top" alt="..">
+                            <div class="card-body bg-warning text-white">
+                                <h5 class="card-title">Imaging & Diagnostics</h5>
+                                <p class="card-text text-white">Medical Provide a compherensive array of diagonistic
+                                    /imaging
+                                    services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell mx-3">
+                        <div class="card" style="width: 17rem;">
+                            <img class="w3-image" src="./images/i3.jpg" class="card-img-top" alt="..">
+                            <div class="card-body bg-light ">
+                                <h5 class="card-title">Imaging & Diagnostics</h5>
+                                <p class="card-text">Medical Provide a compherensive array of diagonistic /imaging
+                                    services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell mx-3">
+                        <div class="card" style="width: 17rem;">
+                            <img class="w3-image" src="./images/i4.jpg" class="card-img-top" alt="..">
+                            <div class="card-body bg-secondary text-white">
+                                <h5 class="card-title">Imaging & Diagnostics</h5>
+                                <p class="card-text text-white">Medical Provide a compherensive array of diagonistic
+                                    /imaging
+                                    services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell mx-3">
+                        <div class="card" style="width: 17rem;">
+                            <img class="w3-image" src="./images/i5.jpg" class="card-img-top" alt="..">
+                            <div class="card-body bg-success text-white">
+                                <h5 class="card-title">Imaging & Diagnostics</h5>
+                                <p class="card-text text-white">Medical Provide a compherensive array of diagonistic
+                                    /imaging
+                                    services</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-wrapper-3">
+        <div class="container-fluid p-5">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="video-img">
+                        <a href="https://youtu.be/irMpTi187Xk?si=6OB9eZ3ysalRqW77">
+                            <i class="fa fa-play-circle fa-5x " aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="inner-wrapper-3">
+                        <h1>Watch This Video</h1>
+                        <p>Find out more about our clinic by watching this video presentation of Medical.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+<!-- All js file and cdn link are here -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</html>
